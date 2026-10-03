@@ -1,0 +1,113 @@
+# config.yml
+
+shop:
+  title: "&#101820ᴍᴏɴᴀʏsᴍᴘ ꜱʜᴏᴘ"
+  rows: 3
+
+categories:
+
+  building:
+    slot: 10
+    material: BRICKS
+    name: "&#e7e7e7ʙᴜɪʟᴅɪɴɢ"
+    lore:
+      - "&7Blocks and building materials"
+
+  woods:
+    slot: 11
+    material: OAK_LOG
+    name: "&#b87945ᴡᴏᴏᴅs"
+    lore:
+      - "&7Every major wood type"
+
+  glass:
+    slot: 12
+    material: GLASS
+    name: "&#65e5ffɢʟᴀss"
+    lore:
+      - "&7Glass and variants"
+
+  stone:
+    slot: 13
+    material: STONE
+    name: "&#a9a9a9sᴛᴏɴᴇ"
+    lore:
+      - "&7Overworld stone blocks"
+
+  farming:
+    slot: 14
+    material: WHEAT
+    name: "&#61e86cꜰᴀʀᴍɪɴɢ"
+    lore:
+      - "&7Farming supplies"
+
+  redstone:
+    slot: 15
+    material: REDSTONE
+    name: "&#ff3b3bʀᴇᴅsᴛᴏɴᴇ"
+    lore:
+      - "&7Redstone components"
+
+  gear:
+    slot: 16
+    material: DIAMOND_SWORD
+    name: "&#4dc9ffɢᴇᴀʀ"
+    lore:
+      - "&7Weapons, armor and tools"
+
+  nether:
+    slot: 22
+    material: NETHERRACK
+    name: "&#ff4d35ɴᴇᴛʜᴇʀ"
+    lore:
+      - "&7Nether materials"
+
+items:
+
+  diamond:
+    material: DIAMOND
+    buy: 500
+    sell: 250
+    category: gear
+
+  iron:
+    material: IRON_INGOT
+    buy: 100
+    sell: 50
+    category: gear
+
+  gold:
+    material: GOLD_INGOT
+    buy: 150
+    sell: 75
+    category: gear
+
+  oak_log:
+    material: OAK_LOG
+    buy: 25
+    sell: 12
+    category: woods
+
+  glass:
+    material: GLASS
+    buy: 20
+    sell: 10
+    category: glass
+
+  stone:
+    material: STONE
+    buy: 10
+    sell: 5
+    category: stone
+
+  wheat:
+    material: WHEAT
+    buy: 15
+    sell: 7
+    category: farming
+
+  redstone:
+    material: REDSTONE
+    buy: 50
+    sell: 25
+    category: redstone
