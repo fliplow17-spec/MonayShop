@@ -1,0 +1,17 @@
+# plugin.yml
+
+name: MonayShop
+version: 1.0.0
+main: lol.playsmp.monayshop.MonayShop
+api-version: '1.21'
+
+commands:
+  shop:
+    description: Open the MonaySMP shop
+    usage: /shop
+
+permissions:
+  monayshop.use:
+    default: true
+  monayshop.admin:
+    default: op
